@@ -20,6 +20,9 @@ header {
     text-decoration: none;
     margin-left: 30px;
 }
+.menu a.actif {
+    color: #F47C20;
+}
 .accueil {
     width: 90%;
     margin: 40px auto 0 auto;
@@ -65,4 +68,21 @@ header {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 20px;
+}
+/* Page Construction */
+.construction .image {
+    width: 44%;
+}
+ 
+.construction .texte {
+    width: 52%;
+}
+ 
+.construction .texte h1 {
+    font-size: 60px;
+}
+.construction h3 {
+    color: #F47C20;
+    font-size: 17px;
+    margin-bottom: 6px;
 }
