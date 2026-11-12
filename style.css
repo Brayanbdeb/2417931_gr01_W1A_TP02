@@ -54,10 +54,13 @@ header {
     font-size: 28px;
     margin-top: 0;
 }
+
+
  
 .texte p {
     font-size: 18px;
     line-height: 1.5;
+    color: #B4B8C0;
 }
 .texte a {
     display: inline-block;
@@ -85,4 +88,80 @@ header {
     color: #F47C20;
     font-size: 17px;
     margin-bottom: 6px;
+}
+/* Page Terrain */
+.terrain .texte {
+    width: 52%;
+}
+ 
+.terrain .image {
+    width: 44%;
+}
+ 
+.terrain .texte h1 {
+    font-size: 60px;
+}
+.terrain h3 {
+    color: #F47C20;
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+/* Alignement des pages Construction et Terrain */
+.construction,
+.terrain {
+    align-items: flex-start;
+}
+ 
+.construction .texte,
+.terrain .texte {
+    margin-top: 30px;
+}
+ 
+.construction .texte h1,
+.terrain .texte h1 {
+    margin-top: 0;
+}
+/* Alignement des pages Construction et Terrain */
+.construction,
+.terrain {
+    align-items: flex-start;
+}
+ 
+.construction .texte,
+.terrain .texte {
+    margin-top: 30px;
+}
+ 
+.construction .texte h1,
+.terrain .texte h1 {
+    margin-top: 0;
+}
+.construction .texte p,
+.terrain .texte p {
+    color: #B4B8C0;
+}
+/* Taille de la photo supplémentaire */
+.detail-photo img {
+    width: 350px;
+    height: auto;
+
+}
+/* Placement de la photo supplémentaire */
+.detail-photo {
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.detail-photo p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 450px;
+}
+/* Etoile des photos supplémentaires */
+.detail-photo p::after {
+    content: " ★";
+    color: #ffda00;
 }
